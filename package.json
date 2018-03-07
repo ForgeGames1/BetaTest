@@ -1,0 +1,14 @@
+{
+    "name": "BetaTest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "rm -rf node_modules package-lock.json && npm i && ls node_modules/.bin && npm ci && ls node_modules/.bin"
+    },
+    "author": "ForgeGames",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "11.2.1"
+    }
+}
